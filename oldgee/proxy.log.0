@@ -682,3 +682,19 @@
 20:36:59 [INFO] Reload complete
 20:36:59 [INFO] Listening on /127.11.0.1:40397
 20:42:15 [SEVERE] Exception in thread "main" 
+20:52:31 [INFO] Enabled BungeeCord version unknown
+20:52:32 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+20:52:32 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+20:52:32 [INFO] Listening websockets on localhost/127.0.0.1:8082
+20:52:32 [INFO] Server bans.txt changed, it will be reloaded automatically
+20:52:32 [INFO] Reload complete
+20:52:32 [INFO] Listening on /127.11.0.1:38941
+20:59:09 [SEVERE] Exception in thread "main" 
+17:48:12 [INFO] Enabled BungeeCord version unknown
+17:48:13 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+17:48:13 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+17:48:13 [INFO] Listening websockets on localhost/127.0.0.1:8082
+17:48:13 [INFO] Server bans.txt changed, it will be reloaded automatically
+17:48:13 [INFO] Reload complete
+17:48:13 [INFO] Listening on /127.11.0.1:32997
+18:07:22 [SEVERE] Exception in thread "main" 
