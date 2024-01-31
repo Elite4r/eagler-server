@@ -24,7 +24,14 @@ world-settings:
   default:
     verbose: true
     keep-spawn-loaded: true
-    allow-block-location-tab-completion: true
+    falling-blocks-collide-with-signs: false
+    disable-mood-sounds: false
+    use-async-lighting: false
+    portal-search-radius: 128
+    disable-thunder: false
+    disable-ice-and-snow: false
+    tick-next-tick-list-cap: 10000
+    tick-next-tick-list-cap-ignores-redstone: false
     generator-settings:
       canyon: true
       caves: true
@@ -36,28 +43,22 @@ world-settings:
       temple: true
       village: true
       flat-bedrock: false
-    portal-search-radius: 128
-    disable-thunder: false
-    disable-ice-and-snow: false
-    tick-next-tick-list-cap: 10000
-    tick-next-tick-list-cap-ignores-redstone: false
-    falling-blocks-collide-with-signs: false
-    disable-mood-sounds: false
-    use-async-lighting: false
+    allow-block-location-tab-completion: true
     cache-chunk-maps: false
     remove-invalid-mob-spawner-tile-entities: true
-    player-blocking-damage-multiplier: 0.5
-    disable-teleportation-suffocation-check: false
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
     nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
+    player-blocking-damage-multiplier: 0.5
+    disable-teleportation-suffocation-check: false
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     tnt-explosion-volume: 4.0
@@ -81,17 +82,16 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    use-hopper-check: false
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
     tnt-entity-height-nerf: 0
+    use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1

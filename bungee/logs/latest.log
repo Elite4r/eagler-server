@@ -1,82 +1,29 @@
-[17:48:15] [main/INFO]: Using mbed TLS based native cipher.
-[17:48:15] [main/INFO]: Using zlib based native compressor.
-[17:48:15] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[17:48:15] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[17:48:15] [main/INFO]: Epoll is working, utilising it!
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[17:48:15] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:15] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:15] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:15] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:15] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:15] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.6 by lax1dude
-[17:48:16] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[17:48:16] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[17:48:16] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /127.0.0.1:8081
-[17:48:16] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[17:48:16] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.6 by lax1dude
-[17:48:16] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[17:50:27] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/127.0.0.1:53070]: Connected via websocket
-[17:50:27] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/127.0.0.1:53070]: Origin header is null
-[17:50:28] [Netty Worker IO Thread #6/INFO] [EaglercraftXBungee]: [/127.0.0.1:53070]: Logged in as 'Sedjf'
-[17:50:28] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:53070|Sedjf] -> UpstreamBridge has connected
-[17:50:28] [Netty Worker IO Thread #6/INFO]: [Sedjf|/127.0.0.1:53070] <-> ServerConnector [server] has connected
-[17:50:42] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:53070|Sedjf] -> UpstreamBridge has disconnected
-[17:50:42] [Netty Worker IO Thread #6/INFO]: [Sedjf] disconnected with: Proxy lost connection to server.
-[17:50:42] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:53070|Sedjf] <-> DownstreamBridge <-> [server] has disconnected
-[17:50:52] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/127.0.0.1:53720]: Connected via websocket
-[17:50:52] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/127.0.0.1:53720]: Origin header is null
-[17:50:52] [Netty Worker IO Thread #7/INFO] [EaglercraftXBungee]: [/127.0.0.1:53720]: Logged in as 'Sedjf'
-[17:50:52] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:53720|Sedjf] -> UpstreamBridge has connected
-[17:50:52] [Netty Worker IO Thread #7/INFO]: [Sedjf|/127.0.0.1:53720] <-> ServerConnector [server] has connected
-[17:54:54] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/127.0.0.1:56370]: Connected via websocket
-[17:54:54] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/127.0.0.1:56370]: Origin header is null
-[17:54:55] [Netty Worker IO Thread #9/INFO] [EaglercraftXBungee]: [/127.0.0.1:56370]: Logged in as 'FLamingAspect'
-[17:54:55] [Netty Worker IO Thread #9/INFO]: [/127.0.0.1:56370|FLamingAspect] -> UpstreamBridge has connected
-[17:54:55] [Netty Worker IO Thread #9/INFO]: [FLamingAspect|/127.0.0.1:56370] <-> ServerConnector [server] has connected
-[17:54:55] [Netty Worker IO Thread #9/INFO]: [FLamingAspect] disconnected with: Kicked whilst connecting to server: You are not whitelisted on this server!
-[17:54:55] [Netty Worker IO Thread #9/INFO]: [/127.0.0.1:56370|FLamingAspect] -> UpstreamBridge has disconnected
-[17:54:55] [Netty Worker IO Thread #9/INFO]: [FLamingAspect|/127.0.0.1:56370] <-> ServerConnector [server] has disconnected
-[17:55:12] [Netty Worker IO Thread #11/INFO] [EaglercraftXBungee]: [/127.0.0.1:40052]: Connected via websocket
-[17:55:12] [Netty Worker IO Thread #11/INFO] [EaglercraftXBungee]: [/127.0.0.1:40052]: Origin header is null
-[17:55:13] [Netty Worker IO Thread #11/INFO] [EaglercraftXBungee]: [/127.0.0.1:40052]: Logged in as 'FlamingAspect'
-[17:55:13] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:40052|FlamingAspect] -> UpstreamBridge has connected
-[17:55:13] [Netty Worker IO Thread #11/INFO]: [FlamingAspect|/127.0.0.1:40052] <-> ServerConnector [server] has connected
-[18:01:03] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:40052|FlamingAspect] -> UpstreamBridge has disconnected
-[18:01:03] [Netty Worker IO Thread #11/INFO]: [FlamingAspect] disconnected with: Proxy lost connection to server.
-[18:01:03] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:40052|FlamingAspect] <-> DownstreamBridge <-> [server] has disconnected
-[18:01:23] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:53720|Sedjf] -> UpstreamBridge has disconnected
-[18:01:23] [Netty Worker IO Thread #7/INFO]: [Sedjf] disconnected with: Proxy lost connection to server.
-[18:01:23] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:53720|Sedjf] <-> DownstreamBridge <-> [server] has disconnected
-[18:07:22] [main/ERROR]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
-[18:07:22] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
-[18:07:22] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
-[18:07:22] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
-[18:07:22] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
-[18:07:22] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
-[18:07:22] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
-[18:07:22] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
-[18:07:22] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
-[18:07:22] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
-[18:07:22] [main/ERROR]: 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:72)
-[18:07:22] [main/ERROR]: 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
-[18:07:22] [main/ERROR]: Caused by: java.io.IOException: Input/output error
-[18:07:22] [main/ERROR]: 	at java.base/java.io.FileInputStream.read0(Native Method)
-[18:07:22] [main/ERROR]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
-[18:07:22] [main/ERROR]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
-[18:07:22] [main/ERROR]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
-[18:07:22] [main/ERROR]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
-[18:07:22] [main/ERROR]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
-[18:07:22] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
-[18:07:22] [main/ERROR]: 	... 10 more
+[16:08:13] [main/INFO]: Using mbed TLS based native cipher.
+[16:08:13] [main/INFO]: Using zlib based native compressor.
+[16:08:13] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[16:08:13] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[16:08:13] [main/INFO]: Epoll is working, utilising it!
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[16:08:14] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:14] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.6 by lax1dude
+[16:08:15] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[16:08:15] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[16:08:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /127.0.0.1:8081
+[16:08:15] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[16:08:16] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.6 by lax1dude
+[16:08:16] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
