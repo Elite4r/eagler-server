@@ -1,5 +1,0 @@
-tasks:
-  - init: bash start.sh
-ports:
-  - port: 8081
-    visibility: public
